@@ -32,8 +32,9 @@ Contenu
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :glob:
    
    Home <self>
-   GlobalSystems/globalsystemsmass
-   Modules/rocketmodule
+   GlobalSystems/*
+   Modules/*
+   GameplayTags/*
