@@ -32,6 +32,7 @@ Contenu
 --------
 
 .. toctree::
+   :maxdepth: 2
    :glob:
    
    Home <self>
