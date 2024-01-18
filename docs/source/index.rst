@@ -33,9 +33,28 @@ Contenu
 
 .. toctree::
    :maxdepth: 2
+   :caption: Global Systems
    :glob:
    
    Home <self>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Global Systems
+   :glob:
+
    GlobalSystems/*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Modules
+   :glob:
+
    Modules/*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Gameplay Tags
+   :glob:
+
    GameplayTags/*
