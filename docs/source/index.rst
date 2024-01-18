@@ -16,22 +16,22 @@ Certains tags sont utilisé en interne par des systèmes globaux, d'autres purem
 Le reste de cette documentation contient des explications sur les différents systèmes, modules, tags et events de SpellGazer.
 
 
-..
-   **Lumache** (/lu'make/) is a Python library for cooks and food lovers
-   that creates recipes mixing random ingredients.
-   It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-   and offers a *simple* and *intuitive* API.
 
-   Check out the :doc:`usage` section for further information, including
-   how to :ref:`installation` the project.
+**Lumache** (/lu'make/) is a Python library for cooks and food lovers
+that creates recipes mixing random ingredients.
+It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
+and offers a *simple* and *intuitive* API.
 
-   .. note::
+Check out the :doc:`usage` section for further information, including
+how to :ref:`installation` the project.
 
-      This project is under active development.
+.. note::
+
+   This project is under active development.
 
 Contenu
 --------
 
 .. toctree::
 
-   Mass
+   GlobalSystems/mass
