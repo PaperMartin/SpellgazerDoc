@@ -36,3 +36,4 @@ Contenu
    
    Home <self>
    GlobalSystems/globalsystemsmass
+   Modules/rocketmodule
