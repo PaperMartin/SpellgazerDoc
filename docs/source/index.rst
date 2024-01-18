@@ -34,4 +34,5 @@ Contenu
 .. toctree::
    :maxdepth: 2
    
-   globalsystemsmass
+   Home <self>
+   GlobalSystems/globalsystemsmass
