@@ -33,7 +33,6 @@ Contenu
 
 .. toctree::
    :maxdepth: 2
-   :caption: Global Systems
    :glob:
    
    Home <self>
