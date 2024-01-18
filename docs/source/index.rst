@@ -5,8 +5,8 @@ Cette documentation contient (ou contiendra) des explications sur comment les di
 
 L'implémentation du gameplay de SpellGazer est en grande partie basé sur les **ModularActors**. Le fonctionnement de ces acteurs repose sur plusieurs éléments :
 
-**Les systèmes globaux** : Ce sont les systèmes qui existent sur tout objets dynamique dans le jeu, leur fonctionnement est configurable mais consistent. E
-xemples : MassHandler gère la masse de l'objet, SizeHandler gère sa taille, etc.
+**Les systèmes globaux** : Ce sont les systèmes qui existent sur tout objets dynamique dans le jeu, leur fonctionnement est configurable mais consistent. 
+Exemples : MassHandler gère la masse de l'objet, SizeHandler gère sa taille, etc.
 **Les modules / components** : Ce sont des éléments ajoutable à un ModularActor. Ils sont dans l'ensemble fait pour être manipulé par des designers, et sont configuré et combiné ensemble pour définir le comportement d'un ModularActor sous différentes circonstances. 
 Exemples : RocketModule qui applique une force continu à son acteur dans une direction, TimerModule qui quand activé par un event, active un autre event au bout d'un certain temps.
 **Les Gameplay Tags** : Ce sont des tags qui peuvent être ajouté ou retirer sur un ModularActor, soit par l'acteur lui même, soit par des influences externes.
@@ -34,7 +34,4 @@ Contenu
 
 .. toctree::
 
-   Systèmes Globaux
-   Modules / components
-   Gameplay Tags
-   Gameplay Events
+   Mass
