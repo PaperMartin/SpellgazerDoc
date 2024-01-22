@@ -13,7 +13,7 @@ Gameplay Tags
     * - Gameplay Tag
       - Description
       - Notes
-    *  - States.Physics.Gravity.GravityRemover
+    * - States.Physics.Gravity.GravityRemover
       - Désactive la gravité sur un acteur si au moins 1 est présent 
       - 
     * - States.Physics.Mass. etc
@@ -42,3 +42,17 @@ Gameplay Tags
     * - States.Ambered
       - Représente si l'objet est ambré. Peut être ajouté a un objet à sa création où dynamiquement pendant que le jeu est actif.
       - 
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
