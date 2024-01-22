@@ -1,0 +1,3 @@
+.tight-table td, .tight-table th {
+    white-space: normal !important;
+}

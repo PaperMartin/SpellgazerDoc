@@ -1,7 +1,8 @@
 Masse
 =====
 
-| La masse physique d'un acteur est calculé par le component MassHandler.
+| Le système de masse détermine la masse physique en KG d'un acteur en fonction de tiers de masse configurable globalement, ainsi que plusieurs Gameplay Tags. 
+| Il est possible de configurer la masse par défaut d'un acteur via un des tags de masse.
 
 | Son comportement est influencé par plusieurs paramètres ainsi que par les tags appliqués sur l'acteur :
 

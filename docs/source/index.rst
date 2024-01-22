@@ -39,7 +39,7 @@ Contenu
 
 .. toctree::
    :maxdepth: 2
-   :caption: Global Systems
+   :caption: Systèmes Globaux
    :glob:
 
    GlobalSystems/*
