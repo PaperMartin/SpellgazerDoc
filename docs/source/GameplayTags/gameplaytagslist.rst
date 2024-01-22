@@ -10,9 +10,9 @@ Gameplay Tags
 ..
   TODO : remplacer par fichier csv
 
-.. tabularcolumns:: |p{1/3}|p{1/3}|p{1/3}|
-
 .. list-table:: Tags Physique
+   :widths: 20 20 20
+   :width: 
    :header-rows: 1
 
    * - Gameplay Tag
@@ -38,6 +38,7 @@ Gameplay Tags
      -
 
 .. list-table:: Tags sans catégorie
+   :widths: 20 20 20
    :header-rows: 1
 
    * - Gameplay Tag
