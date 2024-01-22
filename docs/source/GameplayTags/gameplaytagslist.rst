@@ -6,8 +6,11 @@ Gameplay Tags
 | il est possible d'ajouter des nouveaux tags relativement facilement mais consultez un des programmeurs qui touchent au système de module pour déterminer quel tags ajouter.
 | Si un tag n'est pas présent dans cette liste, ne l'utilisez pas sans en avoir parlé avec un programmeur.
 
+..
+  TODO : remplacer par fichier csv
+
 .. list-table:: Tags Physique
-   :widths: 25 25 50
+   :widths: 25 20 20
    :header-rows: 1
 
    * - Gameplay Tag
@@ -33,7 +36,7 @@ Gameplay Tags
      -
 
 .. list-table:: Tags sans catégorie
-   :widths: 25 25 50
+   :widths: 25 20 20
    :header-rows: 1
 
    * - Gameplay Tag
