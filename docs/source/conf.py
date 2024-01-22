@@ -29,6 +29,8 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
+html_static_path = ['_static']
+
 html_theme = 'sphinx_rtd_theme'
 
 html_css_files = [

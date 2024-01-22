@@ -12,7 +12,6 @@ Gameplay Tags
 
 .. list-table:: Tags Physique
    :widths: 20 20 20
-   :width: 
    :header-rows: 1
 
    * - Gameplay Tag
