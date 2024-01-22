@@ -10,49 +10,35 @@ Gameplay Tags
    :widths: 25 25 50
    :header-rows: 1
 
-    * - Gameplay Tag
-      - Description
-      - Notes
-    * - States.Physics.Gravity.GravityRemover
-      - Désactive la gravité sur un acteur si au moins 1 est présent 
-      - 
-    * - States.Physics.Mass. etc
-      - Représentent la masse actuelle d'un objet. Si le tag static est présent l'objet ne peut pas être déplacé
-      - Tags Interne, Ne doivent jamais être ajouté manuellement.
-    * - States.Physics.MassModifier.Increase/ReduceMass
-      - Augmente ou réduit la masse d'un objet quand appliqué, peuvent être stacké (la masse est augmenté de 1 tier par stack)
-      - 
-    * - States.Physics.MassOverride
-      - Remplace la masse d'un objet par celle spécifiée. Si plusieurs tags d'override sont présent, celui avec la masse la plus grande est choisi. 
-      -
-    * - States.Physics.Size.Default etc
-      - Représentent la taille actuelle d'un objet.
-      - Tags Interne, Ne doivent jamais être ajouté manuellement.
-    * - States.Physics.SizeOverride.ForceExpand/Shrink
-      - Force l'objet à devenir plus grand ou plus petit. Clear les modifications de taille faites via event (spell expand/shrink, etc) et empêche ces modifications quand appliqué.
-      -
+   * - Gameplay Tag
+     - Description
+     - Notes
+   * - States.Physics.Gravity.GravityRemover
+     - Désactive la gravité sur un acteur si au moins 1 est présent 
+     - 
+   * - States.Physics.Mass. etc
+     - Représentent la masse actuelle d'un objet. Si le tag static est présent l'objet ne peut pas être déplacé
+     - Tags Interne, Ne doivent jamais être ajouté manuellement.
+   * - States.Physics.MassModifier.Increase/ReduceMass
+     - Augmente ou réduit la masse d'un objet quand appliqué, peuvent être stacké (la masse est augmenté de 1 tier par stack)
+     - 
+   * - States.Physics.MassOverride
+     - Remplace la masse d'un objet par celle spécifiée. Si plusieurs tags d'override sont présent, celui avec la masse la plus grande est choisi. 
+     -
+   * - States.Physics.Size.Default etc
+     - Représentent la taille actuelle d'un objet.
+     - Tags Interne, Ne doivent jamais être ajouté manuellement.
+   * - States.Physics.SizeOverride.ForceExpand/Shrink
+     - Force l'objet à devenir plus grand ou plus petit. Clear les modifications de taille faites via event (spell expand/shrink, etc) et empêche ces modifications quand appliqué.
+     -
 
 .. list-table:: Tags sans catégorie
    :widths: 25 25 50
    :header-rows: 1
 
-    * - Gameplay Tag
-      - Description
-      - Notes
-    * - States.Ambered
-      - Représente si l'objet est ambré. Peut être ajouté a un objet à sa création où dynamiquement pendant que le jeu est actif.
-      - 
-
-.. list-table:: Title
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+   * - Gameplay Tag
+     - Description
+     - Notes
+   * - States.Ambered
+     - Représente si l'objet est ambré. Peut être ajouté a un objet à sa création où dynamiquement pendant que le jeu est actif.
+     - 
