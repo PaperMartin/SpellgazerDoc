@@ -8,7 +8,7 @@ Gameplay Tags
 | Si un tag n'est pas présent dans cette liste, ne l'utilisez pas sans en avoir parlé avec un programmeur.
 
 ..
-  TODO : remplacer par fichier csv
+  TODO : remplacer par fichier csv?
 
 .. list-table:: Tags Physique
    :widths: 20 20 20

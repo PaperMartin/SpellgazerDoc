@@ -13,7 +13,7 @@ Rocket Module
      - La force appliquée par le thruster, en cm par seconde.
 
 .. list-table:: Events
-   :widths: 20 20
+   :widths: 20 20 20
    :header-rows: 1
 
    * - Event
