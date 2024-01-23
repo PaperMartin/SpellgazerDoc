@@ -1,3 +1,13 @@
-.tight-table td, .tight-table th {
+.wy-nav-content {
+    max-width: none;
+}
+
+.wy-table-responsive table td, .wy-table-responsive table th {
+    /* !important prevents the common CSS stylesheets from
+       overriding this as on RTD they are loaded after this stylesheet */
     white-space: normal !important;
+}
+ 
+.wy-table-responsive {
+    overflow: visible !important;
 }
