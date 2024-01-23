@@ -11,7 +11,7 @@ Gameplay Tags
   TODO : remplacer par fichier csv?
 
 .. list-table:: Tags Physique
-   :widths: 20 20 20
+   :widths: 25 50 25
    :header-rows: 1
 
    * - Gameplay Tag
@@ -37,7 +37,7 @@ Gameplay Tags
      -
 
 .. list-table:: Tags sans catégorie
-   :widths: 20 20 20
+   :widths: 25 50 25
    :header-rows: 1
 
    * - Gameplay Tag
