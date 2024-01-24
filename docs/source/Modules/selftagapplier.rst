@@ -12,7 +12,7 @@ Self Tag Applier
    * - Tags
      - Tags à ajouter ou retirer de l'acteur.
    * - StackTags
-   * - Détermine si les tags devraient être ajouté plusieurs fois si AddTagsEvent est déclenché plusieurs fois d'affilé sans que RemoveTagsEvent soit déclenché.
+     - Détermine si les tags devraient être ajouté plusieurs fois si AddTagsEvent est déclenché plusieurs fois d'affilé sans que RemoveTagsEvent soit déclenché.
    
 .. list-table:: Events
    :widths: 25 50 25

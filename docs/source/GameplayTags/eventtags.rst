@@ -14,6 +14,7 @@ Il pourrait potentiellement y avoir plus tard des Modules/Components qui réagis
 
 .. note:: 
     La plupart des tags d'event ont plusieurs duplicata avec un nombre associé. Ils existent pour permettre l'utilisation de plusieurs events similaire séparémment sur un même acteur, et donc généralement correspondent à la même description et aux mêmes arguments.
+    
     Si un tag n'est pas présent dans cette liste, ne l'utilisez pas sans en avoir parlé avec un programmeur.
 
 ..
@@ -50,5 +51,5 @@ Il pourrait potentiellement y avoir plus tard des Modules/Components qui réagis
    * - Events.ModuleSystem.Filter.OnLastActorStopPassingFilter
      - Représente le dernier acteur à ne plus passer à travers un filtre dans lequel au moins un acteur passe actuellement
      - Acteur filtré
-     - 
+     -
 
