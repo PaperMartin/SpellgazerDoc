@@ -4,7 +4,7 @@ Overlap Sensor Module
 | L'**Overlap Sensor Module** est un module qui représente une zone de trigger sphérique et déclenche des events lorsque des acteurs entrent ou sortent de cette zone.
 
 .. list-table:: Paramêtres
-   :widths: 20 20
+   :widths: 25 75
    :header-rows: 1
 
    * - Paramêtres
@@ -15,7 +15,7 @@ Overlap Sensor Module
      - Détermine si le radius prend en compte la scale de l'acteur. Si coché, le radius reste le même peu importe la scale actuelle de l'acteur.
 
 .. list-table:: Callbacks
-   :widths: 20 20 20
+   :widths: 25 50 25
    :header-rows: 1
 
    * - Event

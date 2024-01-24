@@ -1,9 +1,9 @@
 Gameplay Tags De Status
 =====
-| Les gameplay tags de status sont des tags qui représentent de façon abstraite différents aspects de l'état d'un acteur. 
-| Par défaut les tags eux même n'ont pas de fonctionnalité, à la place leur influence sur le gameplay vient de la façon dont les différents systèmes globaux ou modules réagissent à leur présence.
-| Il faut donc voir l'application de tags de status à un acteur comme une transmission d'information, plutôt qu'une véritable prise de contrôle de l'aspect d'un acteur.
-| Un tag donné peut être ajouté plusieurs fois d'affilé à un acteur, donc si 2 modules ou systèmes appliquent les mêmes tags il n'y a à prioris pas de risque de conflit. Certains tags sont même fait pour être stacké (par exemple MassModifier).
+| Les **Tags de Status** sont des tags qui représentent de façon abstraite différents aspects de **l'état d'un acteur**. 
+| Par défaut les tags eux même n'ont pas de fonctionnalité, à la place leur influence sur le gameplay vient de la façon dont les différents systèmes globaux ou modules/components réagissent à leur présence.
+| Il faut donc voir l'application de tags de status à un acteur comme une **transmission d'information**, plutôt qu'une véritable prise de contrôle de l'aspect d'un acteur.
+| Un tag donné peut être **ajouté plusieurs fois d'affilé à un acteur**, donc si 2 modules/components ou systèmes appliquent les mêmes tags il n'y a à prioris pas de risque de conflit. Certains tags sont même fait pour être stacké (par exemple MassModifier).
 
 | Cette page contient un index des principaux tags de status utilisés dans le projet.
 | Sauf indication contraire, vous pouvez ajouter ou retirer ces tags à un acteur sans risque.

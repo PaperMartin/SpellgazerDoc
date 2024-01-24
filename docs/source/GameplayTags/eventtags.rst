@@ -2,7 +2,7 @@ Gameplay Tag D'Events
 =====
 | Les **Tags d'Event** servent à connecter ensemble des modules/components sans avoir a écrire de code. Il faut voir chaque tag d'Event comme une **fréquence de transmission** locale à chaque acteur.
 
-| La plupart des modules/components ont dans leur paramêtres des paramêtres avec **"Event** ou **Callback** dans leur nom. Les paramêtres Callbacks représentent quels tags d'event auront leur event associé déclenché par différentes fonctionnalités du comportement de ce module, tandis que les paramêtres Event représentent quels tags d'event déclencheront quels fonctionnalités du module.
+| La plupart des modules/components ont dans leur paramêtres des paramêtres avec **Event** ou **Callback** dans leur nom. Les paramêtres Callbacks représentent quels tags d'event auront leur event associé déclenché par différentes fonctionnalités du comportement de ce module, tandis que les paramêtres Event représentent quels tags d'event déclencheront quels fonctionnalités du module.
 | Dans une situation où un module 1 a le tag A dans un paramêtre Callback1, et que un module 2 a le tag A dans un paramêtre Event1, le module 1 pourra déclencher l'event associé au tag A, ce qui à son tour déclenchera la fonctionnalité associé a l'Event1 du module 2.
 
 | Ces events peuvent également **transmettre** différent types d'informations qu'on appelle des **arguments**. 
@@ -20,7 +20,7 @@ Il pourrait potentiellement y avoir plus tard des Modules/Components qui réagis
   TODO : remplacer par fichier csv?
 
 .. list-table:: Tag D'Events
-   :widths: 25 50 25
+   :widths: 25 50 25 25
    :header-rows: 1
 
    * - Tag

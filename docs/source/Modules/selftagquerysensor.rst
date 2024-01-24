@@ -5,7 +5,7 @@ Self Tag Query Sensor
 | Les **Tag Query** sont des ensembles de conditions de présence ou absence de tags sur un acteur donné qui doivent être remplies pour que la Tag Query soit valide.
 
 .. list-table:: Paramêtres
-   :widths: 20 20
+   :widths: 25 75
    :header-rows: 1
 
    * - Paramêtres
@@ -14,7 +14,7 @@ Self Tag Query Sensor
      - Tag Query qui contient toutes les conditions de présence/absence de tag à remplir.
    
 .. list-table:: Callbacks
-   :widths: 20 20 20
+   :widths: 25 50 25
    :header-rows: 1
 
    * - Event

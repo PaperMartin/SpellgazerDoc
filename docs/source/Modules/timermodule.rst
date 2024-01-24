@@ -4,7 +4,7 @@ Timer Module
 | Le **Timer Module** est un module qui déclenche un event après un certain temps et peut être lui même déclenché ou annulé par d'autres events.
 
 .. list-table:: Paramêtres
-   :widths: 20 20
+   :widths: 25 75
    :header-rows: 1
 
    * - Paramêtres
@@ -19,7 +19,7 @@ Timer Module
      - Détermine le temps avant que l'event soit déclenché.
 
 .. list-table:: Events
-   :widths: 20 20 20
+   :widths: 25 50 25
    :header-rows: 1
 
    * - Event
@@ -33,7 +33,7 @@ Timer Module
      - Aucun
     
 .. list-table:: Callbacks
-   :widths: 20 20 20
+   :widths: 25 50 25
    :header-rows: 1
 
    * - Event
