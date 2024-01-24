@@ -21,7 +21,7 @@ Il pourrait potentiellement y avoir plus tard des Modules/Components qui réagis
   TODO : remplacer par fichier csv?
 
 .. list-table:: Tag D'Events
-   :widths: 25 50 25 25
+   :widths: 20 40 20 20
    :header-rows: 1
 
    * - Tag
