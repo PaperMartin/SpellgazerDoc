@@ -11,10 +11,10 @@ L'implémentation du gameplay de SpellGazer est en grande partie basé sur les *
 | **Les modules / components** : Ce sont des éléments ajoutable à un ModularActor. Ils sont dans l'ensemble fait pour être manipulé par des designers, et sont configuré et combiné ensemble pour définir le comportement d'un ModularActor sous différentes circonstances. 
 | Exemples : RocketModule qui applique une force continu à son acteur dans une direction, TimerModule qui quand activé par un event, active un autre event au bout d'un certain temps.
 
-| **Les Gameplay Tags** : Ce sont des tags qui peuvent être ajouté ou retirer sur un ModularActor, soit par l'acteur lui même, soit par des influences externes.
+| **Les Gameplay Tags de Status** : Ce sont des tags qui peuvent être ajouté ou retirer sur un ModularActor, soit par l'acteur lui même, soit par des influences externes.
 | Certains tags sont utilisé en interne par des systèmes globaux, d'autres purement par des modules.
 
-| **Les Gameplay Events** : Ce sont des évènements déclenché sur un ModularActor par des modules/components ou des facteurs externes. Ils sont eux même définis sous forme de Gameplay Tags. Les noms de variables correspondantes aux events sur les modules/components indiquent si elle correspondent à un event auxquel le module réagis (Event) ou que le module déclenche (Callback)
+| **Les Gameplay Tags d'Events** : Ce sont des évènements déclenché sur un ModularActor par des modules/components ou des facteurs externes. Ils sont eux même définis sous forme de Gameplay Tags. Les noms de variables correspondantes aux events sur les modules/components indiquent si elle correspondent à un event auxquel le module réagis (Event) ou que le module déclenche (Callback)
 
 Le reste de cette documentation contient des explications sur les différents systèmes, modules, tags et events de SpellGazer.
 
@@ -37,19 +37,29 @@ Contenu
    Home <self>
 
 .. toctree::
+   :maxdepth: 2
    :caption: Systèmes Globaux
    :glob:
 
    GlobalSystems/*
 
 .. toctree::
+   :maxdepth: 2
    :caption: Modules & Components
    :glob:
 
    Modules/*
 
 .. toctree::
+   :maxdepth: 2
    :caption: Gameplay Tags
    :glob:
 
    GameplayTags/*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Tutoriels
+   :glob:
+
+   Tutorials/*

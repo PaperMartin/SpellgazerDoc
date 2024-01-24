@@ -7,7 +7,7 @@ Size
 | - **Le Size Index** : Valeur interne qui représente le "tier" de taille actuel de l'objet.
 | - **Le Size Multiplier**: Un multiplicateur qui existe pour chaque tier de taille.
 
-| La  Taille actuelle d'un objet correspond donc à sa scale par défaut multiplié par le Size Multiplier correspondant à son Size Index actuel.
+| La taille actuelle d'un objet correspond donc à sa scale par défaut multiplié par le Size Multiplier correspondant à son Size Index actuel.
 
 | Le SizeIndex actuel est lui même déterminé par les facteurs suivants :
 
@@ -19,3 +19,6 @@ Size
 
 | - **GlobalSizeArchetypes** : Les différents tiers de taille. Un SizeArchetype contient un tag identifiant la size, un tag SizeOverride indiquant le tag à appliquer pour forcer un objet à cette size (optionnel), et un SizeMultiplier. Les archetypes doivent être dans leur ordre de plus petit à plus grand dans la liste.
 | - **SizeChangeSpeed** : Détermine la vitesse constante à laquelle les objets changent de tier de taille.
+
+.. warning:: 
+    Il ne faut jamais toucher aux paramêtres dans la catégorie Internal de DA_GlobalPhysicsData, à risque de casser le fonctionnement interne de différents systèmes.
