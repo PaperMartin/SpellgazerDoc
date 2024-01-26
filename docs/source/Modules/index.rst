@@ -10,7 +10,7 @@ Logique
     :name: Logique
     :glob:
 
-    Logique/*
+    Logic/*
 
 Physique
 ========
@@ -20,4 +20,4 @@ Physique
     :name: Physique
     :glob:
 
-    Physique/*
+    Physics/*
