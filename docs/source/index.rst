@@ -32,28 +32,28 @@ Contenu
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Modules & Components
    :name: sec-modules
-   
+
    Modules/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Systèmes Globaux
    :glob:
 
    GlobalSystems/*
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Gameplay Tags
    :glob:
 
    GameplayTags/*
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Tutoriels
    :glob:
 
