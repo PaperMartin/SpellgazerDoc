@@ -36,7 +36,7 @@ Contenu
    :caption: Modules & Components
    :name: sec-modules
 
-   Modules/index
+   Modules/*
 
 .. toctree::
    :maxdepth: 2
