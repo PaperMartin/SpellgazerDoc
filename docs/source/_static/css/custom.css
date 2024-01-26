@@ -12,7 +12,7 @@
 
 .wy-nav-content {
     /*background: #a8aec2;*/
-    max-width: 100%;
+    max-width: 1200px !important;
 }
 
 .wy-table-responsive table td, .wy-table-responsive table th {
