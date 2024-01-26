@@ -22,8 +22,8 @@ Self Tag Applier
      - Description
      - Arguments
    * - AddTagsEvent
-     - Ajoute les tags à l'acteur. Ignoré si StackTags n'est pas coché et que les tags ont déjà été ajouté par ce module.
+     - Ajoute les tags à l'acteur. Ignoré si StackTags n'est pas coché et que les tags ont déjà été ajouté par ce component.
      - Aucun
-   * - OnQueryFalseCallback
-     - Activé quand la query devient invalide (pas quand il y a des changements de tag sur l'acteur mais qu'elles sont déjà invalide).
+   * - RemoveTagsEvent
+     - Retire les tags à l'acteur. Ignoré si aucun tag n'est ajouté actuellement par ce component.
      - Aucun
