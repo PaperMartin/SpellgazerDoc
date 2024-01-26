@@ -32,9 +32,11 @@ Contenu
 --------
 
 .. toctree::
+   :maxdepth: 2
    :glob:
    
    Home <self>
+   Modules/index
 
 .. toctree::
    :maxdepth: 2
@@ -42,13 +44,6 @@ Contenu
    :glob:
 
    GlobalSystems/*
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Modules & Components
-   :glob:
-
-   Modules/*
 
 .. toctree::
    :maxdepth: 2
