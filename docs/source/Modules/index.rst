@@ -6,7 +6,7 @@ Logique
 =======
 
 .. toctree:: 
-    :maxdepth: 1
+    :maxdepth: 2
     :name: Logique
 
     Logic/*
@@ -15,7 +15,7 @@ Physique
 ========
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :name: Physique
 
     Physics/*
