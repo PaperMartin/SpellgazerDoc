@@ -5,20 +5,20 @@ Logique
 =======
 
 .. toctree:: 
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Logique
     :name: sec-logic
     :glob:
 
-    Logic/*
+    Modules/Logic/*
 
 Physique
 ========
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Physique
     :name: sec-physics
     :glob:
 
-    Physics/*
+    Modules/Physics/*

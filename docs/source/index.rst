@@ -32,7 +32,7 @@ Contenu
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Modules & Components
    :name: sec-modules
    :glob:
@@ -40,7 +40,7 @@ Contenu
    Modules/*
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Systèmes Globaux
    :name: sec-systems
    :glob:
@@ -48,7 +48,7 @@ Contenu
    GlobalSystems/*
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Gameplay Tags
    :name: sec-tags
    :glob:
@@ -56,7 +56,7 @@ Contenu
    GameplayTags/*
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Tutoriels
    :name: sec-tutorials
    :glob:
