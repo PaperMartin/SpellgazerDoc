@@ -28,7 +28,7 @@ Tag Query Filter
      - Acteur
    * - RemoveActorToCheckEvent
      - Retire un acteur du filtre
-     - Aucun
+     - Acteur
 
 .. list-table:: Callbacks
    :widths: 25 50 25
