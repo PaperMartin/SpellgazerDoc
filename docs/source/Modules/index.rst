@@ -1,5 +1,5 @@
-Modules
-======
+Module Index
+============
 
 
 Logique
