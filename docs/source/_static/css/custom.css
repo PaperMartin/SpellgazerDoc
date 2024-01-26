@@ -7,7 +7,11 @@
 }
 
 .wy-side-nav-search {
-    background: #fb442e;
+    background: #fb442e !important;
+}
+
+.toctree-expand{
+    color: #b9b9b9 !important;
 }
 
 .wy-nav-content {
