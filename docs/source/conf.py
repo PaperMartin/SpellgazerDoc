@@ -35,7 +35,7 @@ html_theme_options = {
     # if we have a html_logo below, this shows /only/ the logo with no title text
     #"logo_only": True,
     # Collapse navigation (False makes it tree-like)
-    #"collapse_navigation": False,
+    "collapse_navigation": False,
     # Hide the documentation version name/number under the logo
     #"display_version": False,
 }
