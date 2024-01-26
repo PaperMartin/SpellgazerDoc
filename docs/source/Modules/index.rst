@@ -2,7 +2,7 @@ Module Index
 ============
 
 Logique
-=======
+-------
 
 .. toctree:: 
     :maxdepth: 2
@@ -10,10 +10,10 @@ Logique
     :name: sec-logic
     :glob:
 
-    Modules/Logic/*
+    Logic/*
 
 Physique
-========
+--------
 
 .. toctree::
     :maxdepth: 2
@@ -21,4 +21,4 @@ Physique
     :name: sec-physics
     :glob:
 
-    Modules/Physics/*
+    Physics/*
