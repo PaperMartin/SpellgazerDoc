@@ -6,7 +6,8 @@ Logique
 
 .. toctree:: 
     :maxdepth: 2
-    :name: Logique
+    :caption: Logique
+    :name: sec-logic
 
     Logic/*
 
@@ -15,6 +16,7 @@ Physique
 
 .. toctree::
     :maxdepth: 2
-    :name: Physique
+    :caption: Physique
+    :name: sec-physics
 
     Physics/*
