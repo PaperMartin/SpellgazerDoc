@@ -1,5 +1,5 @@
 Bienvenue sur la documentation SpellGazer
-===================================
+=========================================
 
 Cette documentation contient (ou contiendra) des explications sur comment les différents systèmes de SpellGazer fonctionnent, et comment les utiliser.
 
@@ -32,14 +32,12 @@ Contenu
 --------
 
 .. toctree::
-   :maxdepth: 1
    :caption: Modules & Components
    :name: sec-modules
 
    Modules/index
 
 .. toctree::
-   :maxdepth: 1
    :caption: Systèmes Globaux
    :name: sec-systems
    :glob:
@@ -47,7 +45,6 @@ Contenu
    GlobalSystems/*
 
 .. toctree::
-   :maxdepth: 1
    :caption: Gameplay Tags
    :name: sec-tags
    :glob:
@@ -55,7 +52,6 @@ Contenu
    GameplayTags/*
 
 .. toctree::
-   :maxdepth: 1
    :caption: Tutoriels
    :name: sec-tutorials
    :glob:

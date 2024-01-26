@@ -5,7 +5,6 @@ Logique
 -------
 
 .. toctree:: 
-    :maxdepth: 1
     :caption: Logique
     :name: sec-logic
     :glob:
@@ -16,7 +15,6 @@ Physique
 --------
 
 .. toctree::
-    :maxdepth: 1
     :caption: Physique
     :name: sec-physics
     :glob:

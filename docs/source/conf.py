@@ -38,7 +38,7 @@ html_theme_options = {
     "collapse_navigation": False,
     # Hide the documentation version name/number under the logo
     #"display_version": False,
-    'navigation_depth': -1,
+    'navigation_depth': 4,
 }
 
 html_static_path = ['_static']
