@@ -28,9 +28,6 @@ Le reste de cette documentation contient des explications sur les différents sy
    Check out the :doc:`usage` section for further information, including
    how to :ref:`installation` the project.
 
-Contenu
---------
-
 .. toctree::
    :caption: Modules & Components
    :name: sec-modules

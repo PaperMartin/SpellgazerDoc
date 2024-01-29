@@ -1,8 +1,6 @@
 Module Index
 ============
 
-Logique
--------
 
 .. toctree:: 
     :caption: Logique
@@ -10,9 +8,6 @@ Logique
     :glob:
 
     Logic/*
-
-Physique
---------
 
 .. toctree::
     :caption: Physique
