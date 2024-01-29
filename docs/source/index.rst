@@ -54,6 +54,5 @@ Contenu
 .. toctree::
    :caption: Tutoriels
    :name: sec-tutorials
-   :glob:
 
-   Tutorials/*
+   Tutorials/index
