@@ -53,3 +53,9 @@ Le reste de cette documentation contient des explications sur les différents sy
    :name: sec-tutorials
 
    Tutorials/index
+
+.. toctree:: 
+   :caption: Divers
+   :name: sec-divers
+   
+   lexique
