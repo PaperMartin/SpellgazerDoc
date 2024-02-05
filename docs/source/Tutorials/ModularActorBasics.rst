@@ -16,21 +16,28 @@ Créer un modular actor basique
 
 .. image:: MAB_CreateActor.png
 
-2. Allez à la catégorie Parameters (ne changez pas de propriétés pas hors de cette catégorie) et configurez les options de base de l'acteur. On choisis une **mesh** et un **material**, le **GlobalPhysicsData** qui contient toutes les données dont les global systèmes ont besoin (les différents tiers de masses, sizes, etc), la **masse** de l'objet, sa **fragilité** (actuellement inutilisé), et si il devrais avoir des collisions ou non.
+2. Allez à la catégorie Parameters (ne changez pas de propriétés pas hors de cette catégorie) et configurez les options de base de l'acteur. On set **GlobalPhysicsData** qui contient toutes les données dont les global systèmes ont besoin (les différents tiers de masses, sizes, etc), la **masse** de l'objet & sa **fragilité** (actuellement inutilisé).
 
 .. image:: MAB_BaseParams.png
 
-1. Ajoutez un component TimerModule et configurez ses paramêtres. On configure le timer pour qu'il **démarre tout seul** et se **répète** en boucle. On ne met **pas d'events de trigger ou cancel** car la fusée ne doit jamais arrêter son comportement. On met un configure le **callback de fin de timer**.
+3. Allez sur Root Mesh et choisissez une mesh, et optionellement un material. Choisissez PhysicsActor pour le Collision Preset.
+
+.. image:: MAB_PickMesh.png
+
+.. image:: MAB_CollisionPreset.png
+
+4. Ajoutez un component TimerModule et configurez ses paramêtres. On configure le timer pour qu'il **démarre tout seul** et se **répète** en boucle. On ne met **pas d'events de trigger ou cancel** car la fusée ne doit jamais arrêter son comportement. On met un configure le **callback de fin de timer**.
 
 .. image:: MAB_TimerParams.png
 
-1. Ajoutez un component CallbackSequence et configurez ses paramêtres. On connecte TriggerAndCycleEvent au callback du timer. On met 2 callbacks dans la liste de callbacks, un pour activer le RocketModule et un pour le désactiver.
+5. Ajoutez un component CallbackSequence et configurez ses paramêtres. On connecte TriggerAndCycleEvent au callback du timer. On met 2 callbacks dans la liste de callbacks, un pour activer le RocketModule et un pour le désactiver.
 
 .. image:: MAB_EventSequenceParams.png
 
-1. Ajoutez un component Rocket Module et configurez ses paramêtres. On connecte RocketTriggerEvent au 1er callback de CallbackSequence, et RocketDisableEvent au 2e. On met une force qui doit être assez forte pour pousser l'objet en fonction de la masse choisie plus tôt.
+6. Ajoutez un component Rocket Module et configurez ses paramêtres. On connecte RocketTriggerEvent au 1er callback de CallbackSequence, et RocketDisableEvent au 2e. On met une force qui doit être assez forte pour pousser l'objet en fonction de la masse choisie plus tôt.
 
 .. image:: MAB_RocketParams.png
 
-6. Rotatez le RocketModule pour que son axe X soit pointé vers le bas (une rotation à -90 sur l'axe Y devrait suffire)
-7. Mettez le blueprint dans un Level et Lancez le jeu. Normalement l'acteur devrait alterne entre lentement accélerer vers le haut et retomber toutes les 2 secondes.
+7. Rotatez le RocketModule pour que son axe X soit pointé vers le bas (une rotation à -90 sur l'axe Y devrait suffire)
+
+8. Mettez le blueprint dans un Level et Lancez le jeu. Normalement l'acteur devrait alterne entre lentement accélerer vers le haut et retomber toutes les 2 secondes.
