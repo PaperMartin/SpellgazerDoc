@@ -18,7 +18,7 @@ Créer un modular actor basique
 
 2. Allez à la catégorie Parameters (ne changez pas de propriétés pas hors de cette catégorie) et configurez les options de base de l'acteur. On set **GlobalPhysicsData** qui contient toutes les données dont les global systèmes ont besoin (les différents tiers de masses, sizes, etc), la **masse** de l'objet & sa **fragilité** (actuellement inutilisé).
 
-.. image:: MAB_BaseParams.png
+.. image:: MAB_BaseParamsV2.png
 
 3. Allez sur Root Mesh et choisissez une mesh, et optionellement un material. Choisissez PhysicsActor pour le Collision Preset.
 
